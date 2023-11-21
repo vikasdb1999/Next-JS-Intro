@@ -31,7 +31,7 @@ export default async function InvoicesTable({
   className="rounded-full"
   width={28}
   height={28}
-  alt={invoice.name} // Provide a suitable alt text here
+  alt="profile pic" // Provide a suitable alt text here
 />
 
                       <p>{invoice.name}</p>

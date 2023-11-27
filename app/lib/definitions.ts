@@ -40,6 +40,10 @@ export type LatestInvoice = {
 };
 
 // The database returns a number for amount, but we later format it to a string with the formatCurrency function
+// This TypeScript code is defining a type LatestInvoiceRaw that extends the
+// type LatestInvoice but overrides the amount property to 
+//be of type number instead of string. Let's break down the code:
+
 export type LatestInvoiceRaw = Omit<LatestInvoice, 'amount'> & {
   amount: number;
 };
